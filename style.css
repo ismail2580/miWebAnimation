@@ -1,0 +1,1402 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.heroSection {
+    top: 0;
+    width: 100%;
+    height: 150vh;
+    background-image: url(./imges/heroSectionBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heroSectionHeaderText{
+    padding: 100px;
+}
+
+.heroSectionHeaderText h2 {
+    color: #fff;
+    font-size: 60px;
+    padding: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.heroSectionHeaderText h2 span {
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.heroSectionHeaderText p span {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.fixedSlide {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+
+}
+
+.fixedImageSlide {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 40%;
+    transition: .5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.fixedSlideSectionMineText {
+    position: absolute;
+    color: #fff;
+    font-size: 110px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+    margin-top: 392px;
+    margin-left: 22%;
+}
+
+.fixedSlideParegrap {
+    position: absolute;
+    width: 700px;
+    color: #99999d;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 520px;
+    margin-left: 40%;
+}
+
+.OnlyTextPage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #000;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.TextOnlyTextPage {
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.OnlyTextPage .TextOnlyTextPage span {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #99abd3 0, #e0a4ab 32.00684%, #fff 64.13574%, #dadcfa);
+    width: 550px;
+    font-size: 90px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 4px;
+}
+
+.OnlyTextPage .TextOnlyTextPage h2 {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #99abd3 0, #e0a4ab 32.00684%, #fff 64.13574%, #dadcfa);
+    width: 500px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.OnlyTextPage .TextOnlyTextPage {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #99abd3 0, #e0a4ab 32.00684%, #fff 64.13574%, #dadcfa);
+    width: 700px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.cadrVideoSection {
+    width: 100%;
+    display: flex;
+    height: 180vh;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* align-content: center; */
+    background: #000;
+}
+
+.cardandVideo {
+
+    border-radius: 20px;
+    width: 975px;
+    height: 600px;
+}
+
+.videoTopText {
+    margin: 40px;
+}
+
+.videoTopText h2 {
+
+    width: 700px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.videoTopText h3 {
+    width: 700px;
+    color: #99999d;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.card1 {
+
+    background: url(./imges/pexels-cup-of-couple-7657605.jpg);
+    width: 500px;
+    height: 500px;
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: scale(1.3); */
+    transition: all 7s linear;
+    border-radius: 15px;
+    margin: 5px;
+
+}
+
+.card1:focus,
+.card1:hover {
+    transform: scale(.01);
+
+}
+
+.card1 h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 img {
+    margin-top: 115px;
+}
+
+.cardandVideo video {
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.card {
+    display: flex;
+}
+
+.videoSection {
+    background: #000;
+    width: 100%;
+    height: 150vh;
+    overflow: hidden;
+}
+
+.Bacgroundimg img {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.BacgroundMinImage{
+    padding-left: 1100px;
+}
+.topleyar img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.topleyar {
+    transition: 5s;
+}
+
+.OnlyText {
+    background: #000;
+    width: 100%;
+    height: 100vh;
+    /* z-index: 1000; */
+    margin-top: -40px;
+}
+
+.singleLineText {
+    transition: 1s;
+}
+
+.singleLineText {
+    height: 20vh;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Bacgroundimg {
+    display: block;
+    transition: 5s;
+}
+
+.singlePgeImageAndText {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+
+.imageZome {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    transition: 1s;
+}
+
+.snglePageText {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    transition: .5s;
+}
+
+.imageZome img {
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.snglePageText p {
+    margin-top: 10px;
+    width: 500px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PhoneConfigerTextSection {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.PhoneConfigerTextSection {
+    background: url(./imges/overview06-bg02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.textSection {
+    /* width: 100%; */
+    height: 100vh;
+    margin-top: 0;
+    margin-left: 550;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* align-content: flex-end; */
+}
+
+.OnlyPhoneAndText {
+    margin-left: 750px;
+}
+
+.cardListAndgroupSectction {
+    width: 100%;
+    height: 80vh;
+}
+
+.cardTopText {
+    margin: 0;
+}
+
+.cardTopText h2 {
+    font-size: 40px;
+}
+
+.cardTopText {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 30vh;
+}
+
+.cardTopDiv {
+    margin: 20px;
+}
+
+.ProdctCard {
+    background-color: #141414;
+    border-radius: 15px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 0 0.046875rem;
+    padding: 0.183594rem 0.195313rem 0.175781rem;
+    text-align: center;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProdctCard img {
+    width: 65px;
+}
+
+.ProdctCard p {
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #99999d;
+    font-weight: 300;
+}
+
+.cardStyleSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.MobaileSalfeReviw {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    transition: .5s;
+    text-align: center;
+    flex-direction: column;
+    background: #000;
+    align-content: center;
+    align-items: center;
+}
+
+.sliderTopText {
+    height: 30vh;
+}
+
+.mibailOfferSlider {
+    width: 900px;
+    height: 450px;
+}
+
+.carouselStyle {
+    border-radius: 15px;
+}
+
+.sliderButtomText {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #99abd3 0, #e0a4ab 32.00684%, #fff 64.13574%, #dadcfa);
+    width: 550px;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    margin-top: 90px;
+    justify-content: center;
+    letter-spacing: 4px;
+}
+
+.sliderButtomText p {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #99abd3 0, #e0a4ab 32.00684%, #fff 64.13574%, #dadcfa);
+    /* width: 550px; */
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    /* margin-top: 90px; */
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.snglePageText {
+    margin: 0;
+}
+
+.porssesorDiv {
+    width: 100%;
+}
+
+.porssesorDivText {
+    /* position: relative; */
+    margin: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.prossesorConifiger {
+    width: 100%;
+    /* height: 150vh; */
+}
+
+.mineProsesorBacground {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+
+.mineProsesorBacground img {
+    /* position: absolute; */
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.prossesor1 h2 {
+    position: relative;
+    color: #f0e0e0;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #9cbdd1, #d8efef);
+    margin: 30px;
+    margin-left: -500px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 400px;
+    margin-top: -400px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.prossesor1 p {
+    color: #99999d;
+    margin-left: -500px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    width: 450px;
+
+}
+
+.prossesor2 h2 {
+    position: relative;
+    color: #f0e0e0;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #9cbdd1, #d8efef);
+    margin: 30px;
+    margin-left: 568px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 400px;
+    margin-top: -400px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.prossesor2 p {
+    color: #99999d;
+    margin-left: 568px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    width: 450px;
+}
+
+.mobaileCargeVideoSection video {
+    width: 100%;
+    height: 100vh;
+}
+
+.mobaileCargeVideoText {
+    width: 100%;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.mobaileCargeVideoText h2 {
+    color: #fff;
+    font-size: 60px;
+    padding: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.mobaileCargeVideoText p {
+    width: 566px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.usageExperiansSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.usageExperiansMinDiv {
+    width: 100%;
+    padding: 25px;
+    margin-top: -300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.usageExperiansCardDiv h1 {
+    color: #fff;
+    font-size: 60px;
+    padding-left: 100px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+
+}
+
+.usageExperiansCardDiv {
+    width: 1050px;
+    height: 600px;
+    background: #141414;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.usageExperiansCardDiv ul {
+    display: flex;
+}
+
+.usageExperiansCardDiv ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.usageExperiansCardDiv ul li img {
+    width: 65px;
+    height: 65px;
+}
+
+.usageExperiansCardDiv ul li h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.usageExperiansCardDiv ul li p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.OneLineText {
+    border-radius: 15px;
+    width: 1050px;
+    height: 30vh;
+    background: url(./imges/overview16-img01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.OneLineText h1 {
+    color: #fff;
+    border-radius: 15px;
+    height: 30vh;
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.topText {
+    margin: 0;
+    margin: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topText h3 {
+    width: 100%;
+}
+
+.topText h2 {
+    width: 100%;
+}
+
+.IconCardSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 100px;
+}
+
+.IconCardSection ul {
+    width: 1050px;
+    height: 300px;
+    background: #141414;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.IconCardSection ul li {
+    margin: 30px;
+    list-style: none;
+    padding: 20px;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.IconCardSection ul li p {
+    color: #99999d;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.IconCardSection ul li img {
+    width: 65px;
+    padding: 30px;
+    height: 65px;
+}
+
+.IconCardSection a {
+    color: #99999d;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+.extraClass {
+    width: 100%;
+}
+
+.extraP {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.displayColorSection {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.videTopText {
+    position: absolute;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.videTopText p {
+    width: 700px;
+    color: #99999D;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.videTopText .border {
+    background-color: rgba(255, 255, 255, .5);
+    height: 100px;
+    margin: 50px;
+    width: 1px;
+    z-index: 1;
+
+}
+
+.displayColorDiv {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.VideoBottmText {
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 750px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.VideoBottmText ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.VideoBottmText ul li {
+    list-style: none;
+    margin: 40px;
+}
+
+.VideoBottmText ul li h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.VideoBottmText ul li p {
+    color: #99999d;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.VideoBottmText ol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.VideoBottmText ol li {
+    list-style: none;
+    margin: 40px;
+}
+
+.VideoBottmText ol li h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.VideoBottmText ol li p {
+    color: #99999d;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.caedVideoSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.videoP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.videoP .topText h2 {
+    margin-top: 200px;
+}
+
+.videoP p {
+    width: 800px;
+    padding: 30px;
+    color: #99999d;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.videoP video {
+    width: 1050px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.cardAndLongImageSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.cardAndLongImageDiv {
+    position: relative;
+
+
+}
+
+.cardAndLongImageTextMin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.cardAndLongImageText {
+    position: absolute;
+    width: 1050px;
+    height: 400px;
+    background: #141414;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-top: 1000px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.cardAndLongImageText h2 {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    background-image: linear-gradient(90deg, #9cbdd1, #d8efef);
+}
+
+.cardAndLongImageText p {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 20px;
+    background-image: linear-gradient(90deg, #9cbdd1, #d8efef);
+}
+
+.cardAndLongImageBorder {
+    background-color: rgba(255, 255, 255, .5);
+    height: 180px;
+    width: 1px;
+    z-index: 1;
+}
+.back{
+    width: 100%;
+    height: 200vh;
+   
+    
+}
+.backTopText{
+    width: 100%;
+    height: 200vh;
+}
+.backImg{
+    width: 100%;
+    height: 100vh;
+    margin-top: -100px;
+    background-image: url(./imges/overview22.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backTopTextMin
+{
+    width: 100%;
+    margin: 0;
+    padding-top: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.backTopTextMin p{
+    color: #99999d;
+    font-size: 15px;
+    padding: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.CardImgSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.CardImg{
+    width: 1050px;
+    height: 400px;
+    background-image: url(./imges/overview23-img01.png);
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+    flex-direction: column;
+}
+.sliderTopText
+{
+    width: 100%;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.sliderTopText p {
+    color: #99999d;
+    font-size: 15px;
+    padding: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.specsDiv{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./imges/overview25_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backbuttom p{
+    width: 100%;
+    height: 80vh;
+    background-color: #000;
+    color: #99999d;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------carousel style area--------------------*/
+
+
+.carousel {
+    display: flex;
+
+}
+
+.carousel {
+    width: 100%;
+    position: relative;
+    padding-top: 60%;
+    overflow: hidden;
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/**
+ * ==========================
+ * Animation styles
+ * 
+ * Notes:
+ * 1. We use z-index to position active slides in-front 
+ * of non-active slides
+ * 2. We set right:0 and left:0 on .slide to provide us with
+ * a default positioning on both sides of the slide. This allows 
+ * us to trigger JS and CSS3 animations easily
+ *
+ */
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+.slide.active,
+.slide.left,
+.slide.right {
+    z-index: 2;
+    opacity: 1;
+}
+
+/**
+ * ==========================
+ * JS animation styles
+ * 
+ * We use jQuery.animate to control the sliding animations
+ * when CSS3 animations are not available. In order for
+ * the next slide to slide in from the right, we need
+ * to change the left:0 property of the slide to left:auto
+ *
+ */
+
+.js-reset-left {
+    left: auto
+}
+
+/**
+ * ==========================
+ * CSS animation styles
+ * 
+ * .slide.left and .slide.right set-up
+ * the to-be-animated slide so that it can slide
+ * into view. For example, a slide that is about 
+ * to slide in from the right will:
+ * 1. Be positioned to the right of the viewport (right:-100%)
+ * 2. Slide in when the style is superseded with a more specific style (right:0%)
+ *
+ */
+.slide.left {
+    left: -100%;
+    right: 0;
+}
+
+.slide.right {
+    right: -100%;
+    left: auto;
+}
+
+.transition .slide.left {
+    left: 0%
+}
+
+.transition .slide.right {
+    right: 0%
+}
+
+/**
+ * The following classes slide the previously active
+ * slide out of view before positioning behind the 
+ * currently active slide
+ *
+ */
+.transition .slide.shift-right {
+    right: 100%;
+    left: auto
+}
+
+.transition .slide.shift-left {
+    left: 100%;
+    right: auto
+}
+
+/**
+ * This sets the CSS properties that will animate. We set the
+ * transition-duration property dynamically via JS.
+ * We use the browser's default transition-timing-function
+ * for simplicity's sake
+ * 
+ * It is important to note that we are using CodePen's inbuilt
+ * CSS3 property prefixer. For your own projects, you will need
+ * to prefix the transition and transform properties here to ensure
+ * reliable support across browsers
+ *
+ */
+.transition .slide {
+    transition-property: right, left, margin;
+}
+
+/**
+ * ==========================
+ * Indicators
+ *
+ */
+.indicators {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 4;
+    padding: 0;
+    text-align: center;
+}
+
+.indicators li {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin: 5px;
+    background: #fff;
+    list-style-type: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease-out;
+}
+
+.indicators li.active {
+    background: #e7e1e7
+}
+
+.indicators li:hover {
+    background-color: #2b2b2b
+}
+
+/**
+ * ==========================
+ * Arrows 
+ *
+ */
+.arrow {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    cursor: pointer;
+    transition: border-color 0.3s ease-out;
+}
+
+.arrow:hover {
+    border-color: #947f93
+}
+
+.arrow-left {
+    left: 20px;
+    transform: rotate(225deg);
+}
+
+.arrow-right {
+    right: 20px;
+    transform: rotate(45deg);
+}
+
+/**
+ * ==========================
+ * For demo purposes only
+ * 
+ * Please note that the styles below are used
+ * for the purposes of this demo only. There is no need
+ * to use these in any of your own projects
+ *
+ */
+.slide {
+    text-align: center;
+    padding-top: 25%;
+    background-size: cover;
+}
+
+/* 
+h1{
+	width:100px;
+  height:100px;
+  background-color:rgba(146, 45, 141,0.7);
+	margin:auto;
+  line-height:100px;
+	color:#fff;
+	font-size:2.4em;
+  border-radius:50%;
+} */
+
+.slide:nth-child(1) {
+    background-image: url(./imges/fullSceenSliderImage-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide:nth-child(2) {
+    background-image: url(./imges/fullSceenSliderImage.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide:nth-child(3) {
+    background-image: url(./imges/pexels-cup-of-couple-7657605.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 2nd slider  */
+.mibailOfferSlider .wrapper .carouselStyle .slide:nth-child(1) {
+    background-image: url(./imges/pexels-tuấn-kiệt-jr-1391498.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mibailOfferSlider .wrapper .carouselStyle .slide:nth-child(2) {
+    background-image: url(./imges/pexels-harsh-kushwaha-1689731.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mibailOfferSlider .wrapper .carouselStyle .slide:nth-child(3) {
+    background-image: url(./imges/pexels-pixabay-206434.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
